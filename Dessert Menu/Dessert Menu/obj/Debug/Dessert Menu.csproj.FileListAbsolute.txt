@@ -1,0 +1,15 @@
+C:\Users\Shavonne\OneDrive\Classes W2021\CPSC 481\Project\Dessert Menu\Dessert Menu\bin\Debug\Dessert Menu.exe.config
+C:\Users\Shavonne\OneDrive\Classes W2021\CPSC 481\Project\Dessert Menu\Dessert Menu\bin\Debug\Dessert Menu.exe
+C:\Users\Shavonne\OneDrive\Classes W2021\CPSC 481\Project\Dessert Menu\Dessert Menu\bin\Debug\Dessert Menu.pdb
+C:\Users\Shavonne\OneDrive\Classes W2021\CPSC 481\Project\Dessert Menu\Dessert Menu\obj\Debug\Dessert Menu.csprojAssemblyReference.cache
+C:\Users\Shavonne\OneDrive\Classes W2021\CPSC 481\Project\Dessert Menu\Dessert Menu\obj\Debug\MainWindow.g.cs
+C:\Users\Shavonne\OneDrive\Classes W2021\CPSC 481\Project\Dessert Menu\Dessert Menu\obj\Debug\App.g.cs
+C:\Users\Shavonne\OneDrive\Classes W2021\CPSC 481\Project\Dessert Menu\Dessert Menu\obj\Debug\Dessert Menu_MarkupCompile.cache
+C:\Users\Shavonne\OneDrive\Classes W2021\CPSC 481\Project\Dessert Menu\Dessert Menu\obj\Debug\Dessert Menu_MarkupCompile.lref
+C:\Users\Shavonne\OneDrive\Classes W2021\CPSC 481\Project\Dessert Menu\Dessert Menu\obj\Debug\MainWindow.baml
+C:\Users\Shavonne\OneDrive\Classes W2021\CPSC 481\Project\Dessert Menu\Dessert Menu\obj\Debug\Dessert Menu.g.resources
+C:\Users\Shavonne\OneDrive\Classes W2021\CPSC 481\Project\Dessert Menu\Dessert Menu\obj\Debug\Dessert_Menu.Properties.Resources.resources
+C:\Users\Shavonne\OneDrive\Classes W2021\CPSC 481\Project\Dessert Menu\Dessert Menu\obj\Debug\Dessert Menu.csproj.GenerateResource.cache
+C:\Users\Shavonne\OneDrive\Classes W2021\CPSC 481\Project\Dessert Menu\Dessert Menu\obj\Debug\Dessert Menu.csproj.CoreCompileInputs.cache
+C:\Users\Shavonne\OneDrive\Classes W2021\CPSC 481\Project\Dessert Menu\Dessert Menu\obj\Debug\Dessert Menu.exe
+C:\Users\Shavonne\OneDrive\Classes W2021\CPSC 481\Project\Dessert Menu\Dessert Menu\obj\Debug\Dessert Menu.pdb
