@@ -1,0 +1,33 @@
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\Ordering System.csprojAssemblyReference.cache
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\MainWindow.g.cs
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\App.g.cs
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\Ordering System_MarkupCompile.cache
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\Ordering System_MarkupCompile.lref
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\bin\Debug\Ordering System.exe.config
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\bin\Debug\Ordering System.exe
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\bin\Debug\Ordering System.pdb
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\MainWindow.baml
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\Ordering System.g.resources
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\Ordering_System.Properties.Resources.resources
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\Ordering System.csproj.GenerateResource.cache
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\Ordering System.csproj.CoreCompileInputs.cache
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\Ordering System.exe
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\Ordering System.pdb
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\WelcomeScreen.g.cs
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\WelcomeScreen.baml
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\AppetizerMenu.g.cs
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\AppetizerMenu.baml
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\DinnerMenu.g.cs
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\DinnerMenu.baml
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\BreakfastMenu.g.cs
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\BreakfastMenu.baml
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\LunchMenu.g.cs
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\LunchMenu.baml
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\DessertMenu.g.cs
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\DrinksMenu.g.cs
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\DessertMenu.baml
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\DrinksMenu.baml
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\CheckOut.g.cs
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\MyOrder.g.cs
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\CheckOut.baml
+C:\Users\Shavonne\OneDrive\Classes W2021\Ordering System\Ordering System\obj\Debug\MyOrder.baml

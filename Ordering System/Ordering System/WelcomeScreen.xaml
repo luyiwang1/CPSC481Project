@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="Ordering_System.WelcomeScreen"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Ordering_System"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="450" VerticalAlignment="Top" Width="800" Source="fast-food.jpg" Stretch="Fill"/>
+        <Button Content="My Order" HorizontalAlignment="Left" Margin="511,23,0,0" VerticalAlignment="Top" Width="112" FontFamily="Tempus Sans ITC" FontSize="20" Foreground="Black" Height="41">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FF0196EC" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Help" HorizontalAlignment="Left" Margin="643,23,0,0" VerticalAlignment="Top" Width="112" FontFamily="Tempus Sans ITC" FontSize="20" Foreground="Black" Height="41" Click="Help_Button_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FF0196EC" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label Content="bytes" HorizontalAlignment="Left" Margin="346,195,0,0" VerticalAlignment="Top" FontFamily="Tempus Sans ITC" FontSize="75" FontWeight="Bold"/>
+        <Button Content="Dine In" HorizontalAlignment="Left" Margin="331,329,0,0" VerticalAlignment="Top" Width="90" Height="45" FontFamily="Tempus Sans ITC" FontSize="20" Click="Dine_In_Button_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FF0196EC" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Take Out" HorizontalAlignment="Left" Margin="459,329,0,0" VerticalAlignment="Top" Width="90" Height="45" FontFamily="Tempus Sans ITC" FontSize="20">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FF0196EC" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+    </Grid>
+</UserControl>
