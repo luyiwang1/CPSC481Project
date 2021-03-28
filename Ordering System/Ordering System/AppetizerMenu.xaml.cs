@@ -69,5 +69,23 @@ namespace Ordering_System
         {
             Switcher.Switch(new CheckOut());
         }
+
+        private int x = 0;
+
+        private void Add_Nachos_Click(object sender, RoutedEventArgs e)
+        {
+            x++;
+            App_Count1.Text = x.ToString();
+        }
+
+        private void Minus_Nachos_Click(object sender, RoutedEventArgs e)
+        {
+            if (x < 1)
+            {
+                App_Count1.Text = x.ToString();
+            } else
+            x--;
+            App_Count1.Text = x.ToString();
+        }
     }
 }
