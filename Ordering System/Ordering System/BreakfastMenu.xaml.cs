@@ -69,5 +69,10 @@ namespace Ordering_System
         {
             Switcher.Switch(new CheckOut());
         }
+        //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE OMELETTE============================================
+        private void Add_Omelette_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
