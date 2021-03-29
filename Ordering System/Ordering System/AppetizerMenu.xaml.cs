@@ -102,7 +102,7 @@ namespace Ordering_System
         //This function stores the number of quantity selected and puts them into an int save_nachos to use for later(Quantity* Price)
         private void Berry_Add_Click(object sender, RoutedEventArgs e)
         {
-            quantity_berry = berry;
+            quantity_berry = berry;          //Variable to use when adding the prices
             berry = 0;
             App_Count2.Text = berry.ToString();
         }
