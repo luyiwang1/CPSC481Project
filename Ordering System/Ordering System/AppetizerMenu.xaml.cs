@@ -69,23 +69,61 @@ namespace Ordering_System
         {
             Switcher.Switch(new CheckOut());
         }
-
-        private int x = 0;
+        //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE NACHOS============================================
+        private int nachos = 0;
+        private int quantity_nachos;
+        
+        //This function stores the number of quantity selected and puts them into an int save_nachos to use for later (Quantity*Price)
+        private void Nachos_Add_Click(object sender, RoutedEventArgs e)
+        {
+            quantity_nachos = nachos;              //Variable to use when adding the prices
+            nachos = 0;
+            App_Count1.Text = nachos.ToString();
+        }
 
         private void Add_Nachos_Click(object sender, RoutedEventArgs e)
         {
-            x++;
-            App_Count1.Text = x.ToString();
+            nachos++;
+            App_Count1.Text = nachos.ToString();
         }
 
         private void Minus_Nachos_Click(object sender, RoutedEventArgs e)
         {
-            if (x < 1)
+            if (nachos < 1)
             {
-                App_Count1.Text = x.ToString();
+                App_Count1.Text = nachos.ToString();
             } else
-            x--;
-            App_Count1.Text = x.ToString();
+            nachos--;
+            App_Count1.Text = nachos.ToString();
         }
+        //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE STRAWBERRY============================================
+        private int berry = 0;
+        private int quantity_berry;
+        //This function stores the number of quantity selected and puts them into an int save_nachos to use for later(Quantity* Price)
+        private void Berry_Add_Click(object sender, RoutedEventArgs e)
+        {
+            quantity_berry = berry;          //Variable to use when adding the prices
+            berry = 0;
+            App_Count2.Text = berry.ToString();
+        }
+
+        private void Add_Berry_Click(object sender, RoutedEventArgs e)
+        {
+            berry++;
+            App_Count2.Text = berry.ToString();
+        }
+
+        private void Minus_Berry_Click(object sender, RoutedEventArgs e)
+        {
+            if (berry < 1)
+            {
+                App_Count2.Text = berry.ToString();
+            }
+            else
+                berry--;
+            App_Count2.Text = berry.ToString();
+        }
+
     }
+    
 }

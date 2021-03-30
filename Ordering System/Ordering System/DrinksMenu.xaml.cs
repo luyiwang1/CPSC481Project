@@ -69,5 +69,57 @@ namespace Ordering_System
         {
             Switcher.Switch(new CheckOut());
         }
+        //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE COKE============================================
+        private int coke = 0;
+        private int quantity_coke;
+        private void Coke_Add_Click(object sender, RoutedEventArgs e)
+        {
+            quantity_coke = coke;              //Variable to use when adding the prices
+            coke = 0;
+            App_Count1.Text = coke.ToString();
+        }
+
+        private void Add_Coke_Click(object sender, RoutedEventArgs e)
+        {
+            coke++;
+            App_Count1.Text = coke.ToString();
+        }
+
+        private void Minus_Coke_Click(object sender, RoutedEventArgs e)
+        {
+            if (coke < 1)
+            {
+                App_Count1.Text = coke.ToString();
+            }
+            else
+                coke--;
+            App_Count1.Text = coke.ToString();
+        }
+        //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE SPRITE============================================
+        private int sprite = 0;
+        private int quantity_sprite;
+        private void Sprite_Add_Click(object sender, RoutedEventArgs e)
+        {
+            quantity_sprite = sprite;              //Variable to use when adding the prices
+            sprite = 0;
+            App_Count2.Text = sprite.ToString();
+        }
+
+        private void Add_Sprite_Click(object sender, RoutedEventArgs e)
+        {
+            sprite++;
+            App_Count2.Text = sprite.ToString();
+        }
+
+        private void Minus_Sprite_Click(object sender, RoutedEventArgs e)
+        {
+            if (sprite < 1)
+            {
+                App_Count2.Text = sprite.ToString();
+            }
+            else
+                sprite--;
+            App_Count2.Text = sprite.ToString();
+        }
     }
 }
