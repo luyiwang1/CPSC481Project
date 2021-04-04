@@ -18,9 +18,9 @@ namespace Ordering_System
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class Appetizer_screen2 : UserControl
+    public partial class Appetizer-screen2 : UserControl
     {
-        public Appetizer_screen2()
+        public Appetizer-screen2()
         {
             InitializeComponent();
         }
