@@ -87,5 +87,9 @@ namespace Ordering_System
             x--;
             App_Count1.Text = x.ToString();
         }
+        private void DOWN_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new Appetizers-screen2());
+        }
     }
 }
