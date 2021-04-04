@@ -69,5 +69,9 @@ namespace Ordering_System
         {
             Switcher.Switch(new CheckOut());
         }
+        private void DOWN_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new Breakfast-screen2());
+        }
     }
 }
