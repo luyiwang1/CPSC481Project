@@ -171,5 +171,23 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
+      
+        <Button x:Name ="DOWN" HorizontalAlignment="Left" Height="62" Margin="723,211,0,0" VerticalAlignment="Top" Width="61" Click="DOWN_Button_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FF0196EC" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Image HorizontalAlignment="Center" Height="65" VerticalAlignment="Top" Width="54" Source="back-button.png" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="269.197"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
     </Grid>
 </UserControl>
