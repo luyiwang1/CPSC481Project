@@ -18,7 +18,7 @@ namespace Ordering_System
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class Lunch-Screen2 : UserControl
+    public partial class Lunch-screen2 : UserControl
     {
         public Lunch-screen2()
         {
