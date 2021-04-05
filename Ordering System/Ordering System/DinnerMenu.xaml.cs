@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -129,5 +129,9 @@ namespace Ordering_System
             App_Count2.Text = fc.ToString();
         }
 
+        private void GoBack_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new WelcomeScreen());
+        }
     }
 }
