@@ -6,20 +6,14 @@
              xmlns:local="clr-namespace:Ordering_System"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid Background="#FF548CE5">
+    <Grid>
         <Image HorizontalAlignment="Center" Height="534" VerticalAlignment="Top" Width="800" Source="Background.png" OpacityMask="#FF2A2A63" Stretch="Fill"/>
 
         <Label Content="DRINKS MENU" HorizontalAlignment="Center" Margin="0,107,0,0" VerticalAlignment="Top" FontFamily="Tempus Sans ITC" FontSize="28" FontWeight="Bold"/>
 
-        <Button Name="Add_Coke" Click="Add_Coke_Click" Content="+" Width="26" FontFamily="Arial Black" FontSize="20" Foreground ="#FF4D7F42" HorizontalAlignment="Right" Margin="0,164,248,217" RenderTransformOrigin="-3.24,-0.419">
-            <Button.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="White"/>
-                    <GradientStop Color="#FF0196EC" Offset="1"/>
-                </LinearGradientBrush>
-            </Button.Background>
-        </Button>
-        <Button Name="Minus_Coke" Click="Minus_Coke_Click" Content="-" Width="28" FontFamily="Arial Black" FontSize="20" Foreground ="Red" HorizontalAlignment="Right" Margin="0,165,163,217" RenderTransformOrigin="-3.24,-0.419">
+
+        <Button Content="+" Width="26" FontFamily="Arial Black" FontSize="20" Foreground ="#FF4D7F42" HorizontalAlignment="Right" Margin="0,164,276,217" RenderTransformOrigin="-3.24,-0.419" Click="Add_Coke_Click">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White"/>
@@ -28,7 +22,8 @@
             </Button.Background>
         </Button>
 
-        <Button Name="Add_Sprite" Click="Add_Sprite_Click" Content="+" Width="26" FontFamily="Arial Black" FontSize="20" Foreground ="#FF4D7F42" HorizontalAlignment="Right" Margin="0,267,248,113" RenderTransformOrigin="-3.24,-0.419">
+        <Button Content="-" Width="28" FontFamily="Arial Black" FontSize="20" Foreground ="Red" HorizontalAlignment="Right" Margin="0,165,179,217" RenderTransformOrigin="-3.24,-0.419" Click="Minus_Coke_Click">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White"/>
@@ -36,7 +31,20 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Name="Minus_Sprite" Click="Minus_Sprite_Click" Content="-" Width="27" FontFamily="Arial Black" FontSize="20"  Foreground ="Red" HorizontalAlignment="Right" Margin="0,267,163,113" RenderTransformOrigin="-3.24,-0.419">
+
+
+        <Button Content="+" Width="26" FontFamily="Arial Black" FontSize="20" Foreground ="#FF4D7F42" HorizontalAlignment="Right" Margin="0,267,276,113" RenderTransformOrigin="-3.24,-0.419" Click="Add_Sprite_Click">
+
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="#FF0196EC" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+        <Button Content="-" Width="27" FontFamily="Arial Black" FontSize="20"  Foreground ="Red" HorizontalAlignment="Right" Margin="0,267,179,113" RenderTransformOrigin="-3.24,-0.419" Click="Minus_Sprite_Click">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White"/>
@@ -73,7 +81,9 @@
         </Button>
         <Label Content="Coke                     $2.00" FontFamily="Tempus Sans ITC" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Height="34" Margin="154,178,0,0" VerticalAlignment="Top" Width="326"/>
         <Label Content="Sprite                   $2.00" FontFamily="Tempus Sans ITC" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Height="34" Margin="159,277,0,0" VerticalAlignment="Top" Width="328"/>
-        <Button Name="Coke_Add" Click="Coke_Add_Click" Content="ADD" HorizontalAlignment="Left" Margin="651,178,0,0" VerticalAlignment="Top" Width="70" Height="25" Foreground="Black" FontFamily="Tempus Sans ITC">
+
+        <Button Content="ADD" HorizontalAlignment="Left" Margin="642,178,0,0" VerticalAlignment="Top" Width="70" Height="25" Foreground="Black" FontFamily="Tempus Sans ITC" Click="Coke_Add_Click">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White" Offset="0"/>
@@ -81,7 +91,9 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Name="Sprite_Add" Click="Sprite_Add_Click" Content="ADD" HorizontalAlignment="Left" Margin="651,285,0,0" VerticalAlignment="Top" Width="70" Height="25" Foreground="Black" FontFamily="Tempus Sans ITC">
+
+        <Button Content="ADD" HorizontalAlignment="Left" Margin="642,285,0,0" VerticalAlignment="Top" Width="70" Height="25" Foreground="Black" FontFamily="Tempus Sans ITC" Click="Sprite_Add_Click">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White" Offset="0"/>
@@ -89,7 +101,6 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <ScrollViewer HorizontalAlignment="Left" Height="212" Margin="739,122,0,0" VerticalAlignment="Top" Width="19"/>
         <Image HorizontalAlignment="Left" Height="87" Margin="42,169,0,0" VerticalAlignment="Top" Width="107" Source="coke.PNG" Stretch="Fill"/>
         <Image HorizontalAlignment="Left" Height="76" Margin="42,277,0,0" VerticalAlignment="Top" Width="107" Source="sprite.PNG" Stretch="Fill"/>
 
@@ -169,7 +180,29 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <TextBox Name="App_Count1" HorizontalAlignment="Left" Height="34" FontFamily="Tempus Sans ITC" Margin="562,185,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="42" FontSize="20" FontWeight="Bold" Background="{x:Null}" TextAlignment="Center" BorderBrush="{x:Null}"/>
-        <TextBox x:Name="App_Count2" HorizontalAlignment="Left" Height="34" FontFamily="Tempus Sans ITC" Margin="562,285,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="42" FontSize="20" FontWeight="Bold" Background="{x:Null}" TextAlignment="Center" BorderBrush="{x:Null}"/>
+
+      
+        <Button x:Name ="DOWN" HorizontalAlignment="Left" Height="62" Margin="723,211,0,0" VerticalAlignment="Top" Width="61" Click="DOWN_Button_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FF0196EC" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Image HorizontalAlignment="Center" Height="65" VerticalAlignment="Top" Width="54" Source="back-button.png" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="269.197"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Button>
+        <TextBox Name="App_Count1" HorizontalAlignment="Left" Height="34" FontFamily="Tempus Sans ITC" Margin="536,185,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="42" FontSize="20" FontWeight="Bold" Background="{x:Null}" TextAlignment="Center" BorderBrush="{x:Null}"/>
+        <TextBox x:Name="App_Count2" HorizontalAlignment="Left" Height="34" FontFamily="Tempus Sans ITC" Margin="536,285,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="42" FontSize="20" FontWeight="Bold" Background="{x:Null}" TextAlignment="Center" BorderBrush="{x:Null}"/>
+
+
     </Grid>
 </UserControl>

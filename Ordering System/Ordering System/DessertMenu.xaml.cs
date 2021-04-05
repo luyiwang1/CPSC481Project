@@ -69,6 +69,12 @@ namespace Ordering_System
         {
             Switcher.Switch(new CheckOut());
         }
+
+        private void DOWN_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new DessertMenu_2());
+        }
+
         //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE CHEESECAKE============================================
         private int cake = 0;
         private int quantity_cake;
@@ -121,5 +127,6 @@ namespace Ordering_System
                 pie--;
             App_Count2.Text = pie.ToString();
         }
+
     }
 }

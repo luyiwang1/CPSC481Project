@@ -69,6 +69,13 @@ namespace Ordering_System
         {
             Switcher.Switch(new CheckOut());
         }
+
+        private void DOWN_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new LunchMenu_2());
+        }
+
+
         //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE CLASSIC BURGER============================================
         private int burger = 0;
         private int quantity_burger;

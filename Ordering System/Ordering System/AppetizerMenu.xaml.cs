@@ -69,11 +69,20 @@ namespace Ordering_System
         {
             Switcher.Switch(new CheckOut());
         }
+
+
+        private void DOWN_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new AppetizerMenu_2());
+        }
+
         //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE NACHOS============================================
         private int nachos = 0;
         private int quantity_nachos;
-        
+
         //This function stores the number of quantity selected and puts them into an int save_nachos to use for later (Quantity*Price)
+       
+
         private void Nachos_Add_Click(object sender, RoutedEventArgs e)
         {
             quantity_nachos = nachos;              //Variable to use when adding the prices
@@ -92,21 +101,17 @@ namespace Ordering_System
             if (nachos < 1)
             {
                 App_Count1.Text = nachos.ToString();
-            } else
-            nachos--;
+
+            }
+            else
+                nachos--;
             App_Count1.Text = nachos.ToString();
         }
         //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE STRAWBERRY============================================
         private int berry = 0;
         private int quantity_berry;
         //This function stores the number of quantity selected and puts them into an int save_nachos to use for later(Quantity* Price)
-        private void Berry_Add_Click(object sender, RoutedEventArgs e)
-        {
-            quantity_berry = berry;          //Variable to use when adding the prices
-            berry = 0;
-            App_Count2.Text = berry.ToString();
-        }
-
+        
         private void Add_Berry_Click(object sender, RoutedEventArgs e)
         {
             berry++;
@@ -123,6 +128,14 @@ namespace Ordering_System
                 berry--;
             App_Count2.Text = berry.ToString();
         }
+
+        private void Berry_Add_Click(object sender, RoutedEventArgs e)
+        {
+            quantity_berry = berry;          //Variable to use when adding the prices
+            berry = 0;
+            App_Count2.Text = berry.ToString();
+
+           } 
 
     }
     

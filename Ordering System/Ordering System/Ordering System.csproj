@@ -55,8 +55,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AppetizerMenu-2.xaml.cs">
+      <DependentUpon>AppetizerMenu-2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AppetizerMenu.xaml.cs">
       <DependentUpon>AppetizerMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BreakfastMenu-2.xaml.cs">
+      <DependentUpon>BreakfastMenu-2.xaml</DependentUpon>
     </Compile>
     <Compile Include="BreakfastMenu.xaml.cs">
       <DependentUpon>BreakfastMenu.xaml</DependentUpon>
@@ -67,14 +73,26 @@
     <Compile Include="DessertMenu.xaml.cs">
       <DependentUpon>DessertMenu.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DessertMenu_2.xaml.cs">
+      <DependentUpon>DessertMenu_2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DinnerMenu.xaml.cs">
       <DependentUpon>DinnerMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DinnerMenu_2.xaml.cs">
+      <DependentUpon>DinnerMenu_2.xaml</DependentUpon>
     </Compile>
     <Compile Include="DrinksMenu.xaml.cs">
       <DependentUpon>DrinksMenu.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DrinksMenu_2.xaml.cs">
+      <DependentUpon>DrinksMenu_2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LunchMenu.xaml.cs">
       <DependentUpon>LunchMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LunchMenu_2.xaml.cs">
+      <DependentUpon>LunchMenu_2.xaml</DependentUpon>
     </Compile>
     <Compile Include="MyOrder.xaml.cs">
       <DependentUpon>MyOrder.xaml</DependentUpon>
@@ -82,7 +100,15 @@
     <Compile Include="WelcomeScreen.xaml.cs">
       <DependentUpon>WelcomeScreen.xaml</DependentUpon>
     </Compile>
+    <Page Include="AppetizerMenu-2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AppetizerMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BreakfastMenu-2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -98,7 +124,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="DessertMenu_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="DinnerMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DinnerMenu_2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -106,7 +140,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="DrinksMenu_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="LunchMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LunchMenu_2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -153,6 +195,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="sunday-grilled-steak-onions-recipe.webp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -192,6 +235,42 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="sprite.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="back-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="beeer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="wine.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="filet-mignon.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="shrimp-pasta.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="grilled-lobster-tail-004-1553897798.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="sundae.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="chococake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Egg-free-french-toast_post.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="buffalowings.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="onionrings.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

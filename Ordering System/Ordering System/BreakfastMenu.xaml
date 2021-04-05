@@ -11,15 +11,8 @@
 
         <Label Content="BREAKFAST MENU" HorizontalAlignment="Center" Margin="0,107,0,0" VerticalAlignment="Top" FontFamily="Tempus Sans ITC" FontSize="28" FontWeight="Bold"/>
 
-        <Button Name="Add_Omelette" Click="Add_Omelette_Click" Content="+" Width="26" FontFamily="Arial Black" FontSize="20" Foreground ="#FF4D7F42" HorizontalAlignment="Right" Margin="0,164,248,217" RenderTransformOrigin="-3.24,-0.419">
-            <Button.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="White"/>
-                    <GradientStop Color="#FF0196EC" Offset="1"/>
-                </LinearGradientBrush>
-            </Button.Background>
-        </Button>
-        <Button x:Name="Minus_Omelette" Click="Minus_Omelette_Click" Content="-" Width="28" FontFamily="Arial Black" FontSize="20" Foreground ="Red" HorizontalAlignment="Right" Margin="0,165,163,217" RenderTransformOrigin="-3.24,-0.419">
+
+        <Button Content="+" Width="26" FontFamily="Arial Black" FontSize="20" Foreground ="#FF4D7F42" HorizontalAlignment="Right" Margin="0,164,278,217" RenderTransformOrigin="-3.24,-0.419" Click="Add_Omelette_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White"/>
@@ -28,7 +21,7 @@
             </Button.Background>
         </Button>
 
-        <Button Name="Add_Pancake" Click="Add_Pancake_Click" Content="+" Width="26" FontFamily="Arial Black" FontSize="20" Foreground ="#FF4D7F42" HorizontalAlignment="Right" Margin="0,267,248,113" RenderTransformOrigin="-3.24,-0.419">
+        <Button Content="-" Width="28" FontFamily="Arial Black" FontSize="20" Foreground ="Red" HorizontalAlignment="Right" Margin="0,165,181,217" RenderTransformOrigin="-3.24,-0.419" Click="Minus_Omelette_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White"/>
@@ -36,7 +29,20 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Name="Minus_Pancake" Click="Minus_Pancake_Click" Content="-" Width="27" FontFamily="Arial Black" FontSize="20"  Foreground ="Red" HorizontalAlignment="Right" Margin="0,267,163,113" RenderTransformOrigin="-3.24,-0.419">
+
+
+        <Button Content="+" Width="26" FontFamily="Arial Black" FontSize="20" Foreground ="#FF4D7F42" HorizontalAlignment="Right" Margin="0,267,278,113" RenderTransformOrigin="-3.24,-0.419" Click="Add_Pancake_Click">
+
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="#FF0196EC" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+        <Button Content="-" Width="27" FontFamily="Arial Black" FontSize="20"  Foreground ="Red" HorizontalAlignment="Right" Margin="0,267,181,113" RenderTransformOrigin="-3.24,-0.419" Click="Minus_Pancake_Click">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White"/>
@@ -73,7 +79,9 @@
         </Button>
         <Label Content="Omelette                     $15.00" FontFamily="Tempus Sans ITC" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Height="34" Margin="154,178,0,0" VerticalAlignment="Top" Width="326"/>
         <Label Content="Buttered Pancake            $20.00" FontFamily="Tempus Sans ITC" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Height="34" Margin="159,277,0,0" VerticalAlignment="Top" Width="328"/>
-        <Button Name="Omelette_Add" Click="Omelette_Add_Click" Content="ADD" HorizontalAlignment="Left" Margin="651,178,0,0" VerticalAlignment="Top" Width="70" Height="25" Foreground="Black" FontFamily="Tempus Sans ITC">
+
+        <Button Content="ADD" HorizontalAlignment="Left" Margin="642,178,0,0" VerticalAlignment="Top" Width="70" Height="25" Foreground="Black" FontFamily="Tempus Sans ITC" Click="Omelette_Add_Click">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White" Offset="0"/>
@@ -81,7 +89,9 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Name="Pancake_Add" Click="Pancake_Add_Click" Content="ADD" HorizontalAlignment="Left" Margin="651,285,0,0" VerticalAlignment="Top" Width="70" Height="25" Foreground="Black" FontFamily="Tempus Sans ITC">
+
+        <Button Content="ADD" HorizontalAlignment="Left" Margin="642,285,0,0" VerticalAlignment="Top" Width="70" Height="25" Foreground="Black" FontFamily="Tempus Sans ITC" Click="Pancake_Add_Click">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White" Offset="0"/>
@@ -89,7 +99,6 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <ScrollViewer HorizontalAlignment="Left" Height="212" Margin="739,122,0,0" VerticalAlignment="Top" Width="19"/>
         <Image HorizontalAlignment="Left" Height="74" Margin="42,169,0,0" VerticalAlignment="Top" Width="181" Source="Quick-Easy-Chinese-Noodle-Soup.jpg"/>
         <Image HorizontalAlignment="Left" Height="89" Margin="41,261,0,0" VerticalAlignment="Top" Width="112" Source="fishchips.jpg"/>
 
@@ -169,8 +178,30 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <TextBox Name="App_Count1" HorizontalAlignment="Left" Height="34" FontFamily="Tempus Sans ITC" Margin="562,185,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="42" FontSize="20" FontWeight="Bold" Background="{x:Null}" TextAlignment="Center" BorderBrush="{x:Null}"/>
-        <TextBox x:Name="App_Count2" HorizontalAlignment="Left" Height="34" FontFamily="Tempus Sans ITC" Margin="562,285,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="42" FontSize="20" FontWeight="Bold" Background="{x:Null}" TextAlignment="Center" BorderBrush="{x:Null}"/>
+
+      
+        <Button x:Name ="DOWN" HorizontalAlignment="Left" Height="62" Margin="723,211,0,0" VerticalAlignment="Top" Width="61" Click="DOWN_Button_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FF0196EC" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Image HorizontalAlignment="Center" Height="65" VerticalAlignment="Top" Width="54" Source="back-button.png" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="269.197"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Button>
+        <TextBox Name="App_Count1" HorizontalAlignment="Left" Height="34" FontFamily="Tempus Sans ITC" Margin="543,185,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="42" FontSize="20" FontWeight="Bold" Background="{x:Null}" TextAlignment="Center" BorderBrush="{x:Null}"/>
+        <TextBox x:Name="App_Count2" HorizontalAlignment="Left" Height="34" FontFamily="Tempus Sans ITC" Margin="543,285,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="42" FontSize="20" FontWeight="Bold" Background="{x:Null}" TextAlignment="Center" BorderBrush="{x:Null}"/>
+
+
 
     </Grid>
 </UserControl>

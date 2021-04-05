@@ -69,6 +69,13 @@ namespace Ordering_System
         {
             Switcher.Switch(new CheckOut());
         }
+
+        private void DOWN_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new DinnerMenu_2());
+        }
+
+
         //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE NOODLES============================================
         private int noodles = 0;
         private int quantity_noodles;
@@ -121,6 +128,6 @@ namespace Ordering_System
                 fc--;
             App_Count2.Text = fc.ToString();
         }
-        
+
     }
 }

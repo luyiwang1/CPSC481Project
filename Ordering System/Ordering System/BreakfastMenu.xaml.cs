@@ -70,7 +70,15 @@ namespace Ordering_System
             Switcher.Switch(new CheckOut());
         }
 
+        private void DOWN_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new BreakfastMenu_2());
+        }
+
+=======
+
         //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE OMELETTE============================================
+
         private int egg = 0;
         private int quantity_egg;
         private void Omelette_Add_Click(object sender, RoutedEventArgs e)
@@ -121,5 +129,6 @@ namespace Ordering_System
                 pancake--;
             App_Count2.Text = pancake.ToString();
         }
+
     }
 }

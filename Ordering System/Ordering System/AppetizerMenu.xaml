@@ -11,7 +11,7 @@
 
         <Label Content="APPETIZERS MENU" HorizontalAlignment="Center" Margin="0,107,0,0" VerticalAlignment="Top" FontFamily="Tempus Sans ITC" FontSize="28" FontWeight="Bold"/>
 
-        <Button Name="Add_Nachos" Click="Add_Nachos_Click" Content="+" Width="26" FontFamily="Arial Black" FontSize="20" Foreground ="#FF4D7F42" HorizontalAlignment="Right" Margin="0,164,248,217" RenderTransformOrigin="-3.24,-0.419">
+        <Button Name="Add_Nachos" Click="Add_Nachos_Click" Content="+" Width="26" FontFamily="Arial Black" FontSize="20" Foreground ="#FF4D7F42" HorizontalAlignment="Right" Margin="0,164,304,217" RenderTransformOrigin="-3.24,-0.419">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White"/>
@@ -19,7 +19,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Name="Minus_Nachos" Click="Minus_Nachos_Click" Content="-" Width="28" FontFamily="Arial Black" FontSize="20" Foreground ="Red" HorizontalAlignment="Right" Margin="0,165,163,217" RenderTransformOrigin="-3.24,-0.419">
+        <Button Name="Minus_Nachos" Click="Minus_Nachos_Click" Content="-" Width="28" FontFamily="Arial Black" FontSize="20" Foreground ="Red" HorizontalAlignment="Right" Margin="0,165,194,217" RenderTransformOrigin="-3.24,-0.419">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White"/>
@@ -28,7 +28,8 @@
             </Button.Background>
         </Button>
 
-        <Button Name="Add_Berry" Click="Add_Berry_Click" Content="+" Width="26" FontFamily="Arial Black" FontSize="20" Foreground ="#FF4D7F42" HorizontalAlignment="Right" Margin="0,267,248,113" RenderTransformOrigin="-3.24,-0.419">
+        <Button Content="+" Width="26" FontFamily="Arial Black" FontSize="20" Foreground ="#FF4D7F42" HorizontalAlignment="Right" Margin="0,267,304,113" RenderTransformOrigin="-3.24,-0.419" Click="Add_Berry_Click">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White"/>
@@ -36,7 +37,9 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Name="Minus_Berry" Click="Minus_Berry_Click" Content="-" Width="27" FontFamily="Arial Black" FontSize="20"  Foreground ="Red" HorizontalAlignment="Right" Margin="0,267,163,113" RenderTransformOrigin="-3.24,-0.419">
+
+        <Button Content="-" Width="27" FontFamily="Arial Black" FontSize="20"  Foreground ="Red" HorizontalAlignment="Right" Margin="0,267,194,113" RenderTransformOrigin="-3.24,-0.419" Click="Minus_Berry_Click">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White"/>
@@ -73,7 +76,9 @@
         </Button>
         <Label Content="Nachos                 $6.00" FontFamily="Tempus Sans ITC" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Height="34" Margin="154,178,0,0" VerticalAlignment="Top" Width="326"/>
         <Label Content="Strawberry            $8.00" FontFamily="Tempus Sans ITC" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Height="34" Margin="159,277,0,0" VerticalAlignment="Top" Width="328"/>
-        <Button Name="Nachos_Add" Click="Nachos_Add_Click" Content="ADD" HorizontalAlignment="Left" Margin="651,178,0,0" VerticalAlignment="Top" Width="70" Height="25" Foreground="Black" FontFamily="Tempus Sans ITC">
+
+        <Button Content="ADD" HorizontalAlignment="Left" Margin="635,178,0,0" VerticalAlignment="Top" Width="70" Height="25" Foreground="Black" FontFamily="Tempus Sans ITC" Click="Nachos_Add_Click">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White" Offset="0"/>
@@ -81,7 +86,9 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Name="Berry_Add" Click="Berry_Add_Click" Content="ADD" HorizontalAlignment="Left" Margin="651,285,0,0" VerticalAlignment="Top" Width="70" Height="25" Foreground="Black" FontFamily="Tempus Sans ITC">
+
+        <Button Content="ADD" HorizontalAlignment="Left" Margin="635,285,0,0" VerticalAlignment="Top" Width="70" Height="25" Foreground="Black" FontFamily="Tempus Sans ITC" Click="Berry_Add_Click">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White" Offset="0"/>
@@ -89,12 +96,11 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <ScrollViewer HorizontalAlignment="Left" Height="212" Margin="739,122,0,0" VerticalAlignment="Top" Width="19"/>
         <Image HorizontalAlignment="Left" Height="74" Margin="42,169,0,0" VerticalAlignment="Top" Width="181" Source="Quick-Easy-Chinese-Noodle-Soup.jpg"/>
         <Image HorizontalAlignment="Left" Height="89" Margin="41,261,0,0" VerticalAlignment="Top" Width="112" Source="fishchips.jpg"/>
 
 
-        <Button Content="Appetizers" HorizontalAlignment="Left" Height="45" Margin="86,62,0,0" VerticalAlignment="Top" Width="104" Foreground="White" FontFamily="Tempus Sans ITC" FontSize="20" >
+        <Button Content="Appetizers" HorizontalAlignment="Left" Height="45" Margin="86,62,0,0" VerticalAlignment="Top" Width="104" Foreground="White" FontFamily="Tempus Sans ITC" FontSize="20"  >
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
@@ -169,8 +175,28 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <TextBox Name="App_Count1" HorizontalAlignment="Left" Height="34" FontFamily="Tempus Sans ITC" Margin="562,185,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="42" FontSize="20" FontWeight="Bold" Background="{x:Null}" TextAlignment="Center" BorderBrush="{x:Null}"/>
-        <TextBox x:Name="App_Count2" HorizontalAlignment="Left" Height="34" FontFamily="Tempus Sans ITC" Margin="562,285,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="42" FontSize="20" FontWeight="Bold" Background="{x:Null}" TextAlignment="Center" BorderBrush="{x:Null}"/>
+       
+        <Button HorizontalAlignment="Left" Height="54" Margin="715,211,0,0" VerticalAlignment="Top" Width="75" Click="DOWN_Button_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FF0196EC" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Image HorizontalAlignment="Left" Height="52" VerticalAlignment="Top" Width="51" Source="back-button.png" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="271.032"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Button>
+        <TextBox Name="App_Count1" HorizontalAlignment="Left" Height="34" FontFamily="Tempus Sans ITC" Margin="524,185,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="42" FontSize="20" FontWeight="Bold" Background="{x:Null}" TextAlignment="Center" BorderBrush="{x:Null}"/>
+        <TextBox x:Name="App_Count2" HorizontalAlignment="Left" Height="34" FontFamily="Tempus Sans ITC" Margin="524,285,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="42" FontSize="20" FontWeight="Bold" Background="{x:Null}" TextAlignment="Center" BorderBrush="{x:Null}"/>
+
 
     </Grid>
 </UserControl>
