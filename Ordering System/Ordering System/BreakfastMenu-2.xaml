@@ -184,7 +184,7 @@
 
         </Button>
         <Image Margin="327,77,373,257"/>
-        <Image HorizontalAlignment="Left" Height="88" Margin="42,145,0,0" VerticalAlignment="Top" Width="150" Source="download.jpg" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="88" Margin="42,145,0,0" VerticalAlignment="Top" Width="150" Source="breakfastBurrito.jpg" Stretch="Fill"/>
         <Image HorizontalAlignment="Left" Height="107" Margin="42,248,0,0" VerticalAlignment="Top" Width="148" Source="Egg-free-french-toast_post.jpg" Stretch="Fill"/>
 
     </Grid>
