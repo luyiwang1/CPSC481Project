@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,12 +30,15 @@ namespace Ordering_System
             Switcher.Switch(new AppetizerMenu());
         }
 
+        private void Appetizer_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new AppetizerMenu());
+        }
+
         private void Breakfast_Button_Click(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new BreakfastMenu());
         }
-
-
 
         private void Dinner_Button_Click(object sender, RoutedEventArgs e)
         {
@@ -138,6 +141,11 @@ namespace Ordering_System
         private void Lunch_Button_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void GoBack_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new WelcomeScreen());
         }
     }
 }

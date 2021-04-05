@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -195,7 +195,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="sunday-grilled-steak-onions-recipe.webp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -249,10 +248,7 @@
     <Resource Include="filet-mignon.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="shrimp-pasta.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="grilled-lobster-tail-004-1553897798.jpg" />
+    <Resource Include="grilledLobster.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="sundae.jpg" />
@@ -261,7 +257,7 @@
     <Resource Include="chococake.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="download.jpg" />
+    <Resource Include="breakfastBurrito.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Egg-free-french-toast_post.jpg" />
@@ -271,6 +267,24 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="onionrings.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="nachos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="garlicBread.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="omelette.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="buttermilkpancakes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="steak.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="chickenAlfredo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

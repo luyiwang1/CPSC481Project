@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,7 +29,10 @@ namespace Ordering_System
         {
             Switcher.Switch(new AppetizerMenu());
         }
-
+        private void TakeOut_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new AppetizerMenu());
+        }
         private void Help_Button_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Select Dine In or Take Out to access the menu");

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -97,7 +97,7 @@ namespace Ordering_System
             App_Count1.Text = beer.ToString();
         }
 
-        private void B_Add_Click(object sender, RoutedEventArgs e)
+        private void Beer_Add_Click(object sender, RoutedEventArgs e)
         {
             quantity_beer = beer;              //Variable to use when adding the prices
             beer = 0;
@@ -132,6 +132,16 @@ namespace Ordering_System
         }
 
         private void Drinks_Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void GoBack_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new WelcomeScreen());
+        }
+
+        private void Appetizer_Button_Click(object sender, RoutedEventArgs e)
         {
 
         }

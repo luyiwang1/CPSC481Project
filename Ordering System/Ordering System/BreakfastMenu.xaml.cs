@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -75,8 +75,6 @@ namespace Ordering_System
             Switcher.Switch(new BreakfastMenu_2());
         }
 
-=======
-
         //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE OMELETTE============================================
 
         private int egg = 0;
@@ -130,5 +128,9 @@ namespace Ordering_System
             App_Count2.Text = pancake.ToString();
         }
 
+        private void GoBack_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new WelcomeScreen());
+        }
     }
 }
