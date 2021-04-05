@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -38,6 +38,12 @@ namespace Ordering_System
         private void Place_Order_Button_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Your order has been placed and your food will arrive shortly. Thank you!");
+           
+            // If the label beside the item is empty, change contents to time
+            if (label1.Content == "")
+            {
+                label1.Content = "Order sent: " + DateTime.Now.ToString("hh:mm:ss tt");
+            }
         }
 
         private void TakeOut_Button_Click(object sender, RoutedEventArgs e)
