@@ -71,7 +71,60 @@ namespace Ordering_System
         }
         private void DOWN_Button_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new Dinner-screen2());
+            Switcher.Switch(new DinnerMenu_2());
+        }
+
+        //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE NOODLES============================================
+        private int noodles = 0;
+        private int quantity_noodles;
+        private void Noodles_Add_Click(object sender, RoutedEventArgs e)
+        {
+            quantity_noodles = noodles;              //Variable to use when adding the prices
+            noodles = 0;
+            App_Count1.Text = noodles.ToString();
+        }
+
+        private void Add_Noodles_Click(object sender, RoutedEventArgs e)
+        {
+            noodles++;
+            App_Count1.Text = noodles.ToString();
+        }
+
+        private void Minus_Noodles_Click(object sender, RoutedEventArgs e)
+        {
+            if (noodles < 1)
+            {
+                App_Count1.Text = noodles.ToString();
+            }
+            else
+                noodles--;
+            App_Count1.Text = noodles.ToString();
+        }
+        //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE FISH AND CHIPS============================================
+        private int fc = 0;
+        private int quantity_fc;
+        private void FC_Add_Click(object sender, RoutedEventArgs e)
+        {
+            quantity_fc = fc;              //Variable to use when adding the prices
+            fc = 0;
+            App_Count2.Text = fc.ToString();
+        }
+
+        private void Add_FC_Click(object sender, RoutedEventArgs e)
+        {
+            fc++;
+            App_Count2.Text = fc.ToString();
+        }
+
+        private void Minus_FC_Click(object sender, RoutedEventArgs e)
+        {
+            if (fc < 1)
+            {
+                App_Count2.Text = fc.ToString();
+            }
+            else
+                fc--;
+            App_Count2.Text = fc.ToString();
         }
     }
 }

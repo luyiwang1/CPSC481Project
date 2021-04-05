@@ -71,7 +71,61 @@ namespace Ordering_System
         }
         private void DOWN_Button_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new Dessert-screen2());
+            Switcher.Switch(new DessertMenu_2());
         }
+        //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE CHEESECAKE============================================
+        private int cake = 0;
+        private int quantity_cake;
+        private void Cake_Add_Click(object sender, RoutedEventArgs e)
+        {
+            quantity_cake = cake;              //Variable to use when adding the prices
+            cake = 0;
+            App_Count1.Text = cake.ToString();
+        }
+
+        private void Add_Cake_Click(object sender, RoutedEventArgs e)
+        {
+            cake++;
+            App_Count1.Text = cake.ToString();
+        }
+
+        private void Minus_Cake_Click(object sender, RoutedEventArgs e)
+        {
+            if (cake < 1)
+            {
+                App_Count1.Text = cake.ToString();
+            }
+            else
+                cake--;
+            App_Count1.Text = cake.ToString();
+        }
+        //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE MAPLE APPLE PIE============================================
+        private int pie = 0;
+        private int quantity_pie;
+        private void Pie_Add_Click(object sender, RoutedEventArgs e)
+        {
+            quantity_pie = pie;              //Variable to use when adding the prices
+            pie = 0;
+            App_Count2.Text = pie.ToString();
+        }
+
+        private void Add_Pie_Click(object sender, RoutedEventArgs e)
+        {
+            pie++;
+            App_Count2.Text = pie.ToString();
+        }
+
+        private void Minus_Pie_Click(object sender, RoutedEventArgs e)
+        {
+            if (pie < 1)
+            {
+                App_Count2.Text = pie.ToString();
+            }
+            else
+                pie--;
+            App_Count2.Text = pie.ToString();
+        }
+
+   
     }
 }

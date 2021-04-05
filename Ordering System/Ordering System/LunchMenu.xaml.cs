@@ -71,7 +71,60 @@ namespace Ordering_System
         }
         private void DOWN_Button_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new Lunch-screen2());
+            Switcher.Switch(new LunchMenu_2());
+        }
+
+        //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE CLASSIC BURGER============================================
+        private int burger = 0;
+        private int quantity_burger;
+        private void Burger_Add_Click(object sender, RoutedEventArgs e)
+        {
+            quantity_burger = burger;              //Variable to use when adding the prices
+            burger = 0;
+            App_Count1.Text = burger.ToString();
+        }
+
+        private void Add_Burger_Click(object sender, RoutedEventArgs e)
+        {
+            burger++;
+            App_Count1.Text = burger.ToString();
+        }
+
+        private void Minus_Burger_Click(object sender, RoutedEventArgs e)
+        {
+            if (burger < 1)
+            {
+                App_Count1.Text = burger.ToString();
+            }
+            else
+                burger--;
+            App_Count1.Text = burger.ToString();
+        }
+        //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE SPICY SHRIMP TACOS============================================
+        private int shrimp = 0;
+        private int quantity_shrimp;
+        private void Shrimp_Add_Click(object sender, RoutedEventArgs e)
+        {
+            quantity_shrimp = shrimp;              //Variable to use when adding the prices
+            shrimp = 0;
+            App_Count2.Text = shrimp.ToString();
+        }
+
+        private void Add_Shrimp_Click(object sender, RoutedEventArgs e)
+        {
+            shrimp++;
+            App_Count2.Text = shrimp.ToString();
+        }
+
+        private void Minus_Shrimp_Click(object sender, RoutedEventArgs e)
+        {
+            if (shrimp < 1)
+            {
+                App_Count2.Text = shrimp.ToString();
+            }
+            else
+                shrimp--;
+            App_Count2.Text = shrimp.ToString();
         }
     }
 }

@@ -11,7 +11,7 @@
 
         <Label Content="DESSERT MENU" HorizontalAlignment="Center" Margin="0,107,0,0" VerticalAlignment="Top" FontFamily="Tempus Sans ITC" FontSize="28" FontWeight="Bold"/>
 
-        <Button Content="+" Width="26" FontFamily="Arial Black" FontSize="20" Foreground ="#FF4D7F42" HorizontalAlignment="Right" Margin="0,164,248,217" RenderTransformOrigin="-3.24,-0.419">
+        <Button Content="+" Width="26" FontFamily="Arial Black" FontSize="20" Foreground ="#FF4D7F42" HorizontalAlignment="Right" Margin="0,164,274,217" RenderTransformOrigin="-3.24,-0.419" Click="Add_Cake_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White"/>
@@ -19,7 +19,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Content="-" Width="28" FontFamily="Arial Black" FontSize="20" Foreground ="Red" HorizontalAlignment="Right" Margin="0,165,163,217" RenderTransformOrigin="-3.24,-0.419">
+        <Button Content="-" Width="28" FontFamily="Arial Black" FontSize="20" Foreground ="Red" HorizontalAlignment="Right" Margin="0,165,179,217" RenderTransformOrigin="-3.24,-0.419" Click="Minus_Cake_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White"/>
@@ -28,7 +28,7 @@
             </Button.Background>
         </Button>
 
-        <Button Content="+" Width="26" FontFamily="Arial Black" FontSize="20" Foreground ="#FF4D7F42" HorizontalAlignment="Right" Margin="0,267,248,113" RenderTransformOrigin="-3.24,-0.419">
+        <Button Content="+" Width="26" FontFamily="Arial Black" FontSize="20" Foreground ="#FF4D7F42" HorizontalAlignment="Right" Margin="0,267,274,113" RenderTransformOrigin="-3.24,-0.419" Click="Add_Pie_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White"/>
@@ -36,7 +36,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Content="-" Width="27" FontFamily="Arial Black" FontSize="20"  Foreground ="Red" HorizontalAlignment="Right" Margin="0,267,163,113" RenderTransformOrigin="-3.24,-0.419">
+        <Button Content="-" Width="27" FontFamily="Arial Black" FontSize="20"  Foreground ="Red" HorizontalAlignment="Right" Margin="0,267,179,113" RenderTransformOrigin="-3.24,-0.419" Click="Minus_Pie_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White"/>
@@ -73,9 +73,7 @@
         </Button>
         <Label Content="Strawberry Cheesecake      $2.25" FontFamily="Tempus Sans ITC" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Height="34" Margin="154,178,0,0" VerticalAlignment="Top" Width="326"/>
         <Label Content="Maple Apple Pie            $2.25" FontFamily="Tempus Sans ITC" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Height="34" Margin="159,277,0,0" VerticalAlignment="Top" Width="328"/>
-        <Label Content="0" FontFamily="Tempus Sans ITC" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Height="30" Margin="575,174,0,0" VerticalAlignment="Top" Width="24" RenderTransformOrigin="1.021,0.451"/>
-        <Label Content="0" FontFamily="Tempus Sans ITC" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Height="30" Margin="575,277,0,0" VerticalAlignment="Top" Width="24" RenderTransformOrigin="1.021,0.451"/>
-        <Button Content="ADD" HorizontalAlignment="Left" Margin="651,178,0,0" VerticalAlignment="Top" Width="70" Height="25" Foreground="Black" FontFamily="Tempus Sans ITC">
+        <Button Content="ADD" HorizontalAlignment="Left" Margin="641,178,0,0" VerticalAlignment="Top" Width="70" Height="25" Foreground="Black" FontFamily="Tempus Sans ITC" Click="Cake_Add_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White" Offset="0"/>
@@ -83,7 +81,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Content="ADD" HorizontalAlignment="Left" Margin="651,285,0,0" VerticalAlignment="Top" Width="70" Height="25" Foreground="Black" FontFamily="Tempus Sans ITC">
+        <Button Content="ADD" HorizontalAlignment="Left" Margin="641,285,0,0" VerticalAlignment="Top" Width="70" Height="25" Foreground="Black" FontFamily="Tempus Sans ITC" Click="Pie_Add_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White" Offset="0"/>
@@ -91,7 +89,6 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <ScrollViewer HorizontalAlignment="Left" Height="212" Margin="739,122,0,0" VerticalAlignment="Top" Width="19"/>
         <Image HorizontalAlignment="Left" Height="74" Margin="42,169,0,0" VerticalAlignment="Top" Width="181" Source="Strawberry-Cheesecake.jpg"/>
         <Image HorizontalAlignment="Left" Height="89" Margin="41,261,0,0" VerticalAlignment="Top" Width="112" Source="mapleApplePie.jpg"/>
 
@@ -172,7 +169,7 @@
             </Button.Background>
         </Button>
       
-        <Button x:Name ="DOWN" HorizontalAlignment="Left" Height="62" Margin="723,211,0,0" VerticalAlignment="Top" Width="61" Click="DOWN_Button_Click">
+       <Button x:Name ="DOWN" HorizontalAlignment="Left" Height="62" Margin="723,211,0,0" VerticalAlignment="Top" Width="61" Click="DOWN_Button_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White" Offset="0"/>
@@ -189,5 +186,9 @@
                     </TransformGroup>
                 </Image.RenderTransform>
             </Image>
+       </Button>
+        <TextBox Name="App_Count1" HorizontalAlignment="Left" Height="34" FontFamily="Tempus Sans ITC" Margin="545,185,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="42" FontSize="20" FontWeight="Bold" Background="{x:Null}" TextAlignment="Center" BorderBrush="{x:Null}"/>
+        <TextBox x:Name="App_Count2" HorizontalAlignment="Left" Height="34" FontFamily="Tempus Sans ITC" Margin="545,285,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="42" FontSize="20" FontWeight="Bold" Background="{x:Null}" TextAlignment="Center" BorderBrush="{x:Null}"/>
+
     </Grid>
 </UserControl>

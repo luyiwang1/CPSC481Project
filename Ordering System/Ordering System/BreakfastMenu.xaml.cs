@@ -71,7 +71,59 @@ namespace Ordering_System
         }
         private void DOWN_Button_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new Breakfast-screen2());
+            Switcher.Switch(new BreakfastMenu_2());
         }
+
+        private int egg = 0;
+        private int quantity_egg;
+        private void Omelette_Add_Click(object sender, RoutedEventArgs e)
+        {
+            quantity_egg = egg;          //Variable to use when adding the prices
+            egg = 0;
+            App_Count1.Text = egg.ToString();
+        }
+        private void Add_Omelette_Click(object sender, RoutedEventArgs e)
+        {
+            egg++;
+            App_Count1.Text = egg.ToString();
+        }
+
+        private void Minus_Omelette_Click(object sender, RoutedEventArgs e)
+        {
+            if (egg < 1)
+            {
+                App_Count1.Text = egg.ToString();
+            }
+            else
+                egg--;
+            App_Count1.Text = egg.ToString();
+        }
+        //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE PANCAKE============================================
+        private int pancake = 0;
+        private int quantity_pancake;
+        private void Pancake_Add_Click(object sender, RoutedEventArgs e)
+        {
+            quantity_pancake = pancake;          //Variable to use when adding the prices
+            pancake = 0;
+            App_Count2.Text = pancake.ToString();
+        }
+
+        private void Add_Pancake_Click(object sender, RoutedEventArgs e)
+        {
+            pancake++;
+            App_Count2.Text = pancake.ToString();
+        }
+
+        private void Minus_Pancake_Click(object sender, RoutedEventArgs e)
+        {
+            if (pancake < 1)
+            {
+                App_Count2.Text = pancake.ToString();
+            }
+            else
+                pancake--;
+            App_Count2.Text = pancake.ToString();
+        }
+
     }
 }
