@@ -69,10 +69,15 @@ namespace Ordering_System
         {
             Switcher.Switch(new CheckOut());
         }
+
         private void DOWN_Button_Click(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new BreakfastMenu_2());
         }
+
+=======
+
+        //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE OMELETTE============================================
 
         private int egg = 0;
         private int quantity_egg;

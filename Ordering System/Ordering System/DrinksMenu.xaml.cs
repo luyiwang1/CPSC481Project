@@ -69,11 +69,13 @@ namespace Ordering_System
         {
             Switcher.Switch(new CheckOut());
         }
+
         private void DOWN_Button_Click(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new DrinksMenu_2());
         }
        
+
         //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE COKE============================================
         private int coke = 0;
         private int quantity_coke;
@@ -126,34 +128,6 @@ namespace Ordering_System
                 sprite--;
             App_Count2.Text = sprite.ToString();
         }
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
 
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_3(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_4(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_5(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }

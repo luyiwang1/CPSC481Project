@@ -11,15 +11,9 @@
 
         <Label Content="LUNCH MENU" HorizontalAlignment="Center" Margin="0,107,0,0" VerticalAlignment="Top" FontFamily="Tempus Sans ITC" FontSize="28" FontWeight="Bold"/>
 
+
         <Button Content="+" Width="26" FontFamily="Arial Black" FontSize="20" Foreground ="#FF4D7F42" HorizontalAlignment="Right" Margin="0,164,248,217" RenderTransformOrigin="-3.24,-0.419" Click="Add_Burger_Click">
-            <Button.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="White"/>
-                    <GradientStop Color="#FF0196EC" Offset="1"/>
-                </LinearGradientBrush>
-            </Button.Background>
-        </Button>
-        <Button Content="-" Width="28" FontFamily="Arial Black" FontSize="20" Foreground ="Red" HorizontalAlignment="Right" Margin="0,165,163,217" RenderTransformOrigin="-3.24,-0.419" Click="Minus_Burger_Click">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White"/>
@@ -28,7 +22,8 @@
             </Button.Background>
         </Button>
 
-        <Button Content="+" Width="26" FontFamily="Arial Black" FontSize="20" Foreground ="#FF4D7F42" HorizontalAlignment="Right" Margin="0,267,248,113" RenderTransformOrigin="-3.24,-0.419" Click="Add_Shrimp_Click">
+        <Button Content="-" Width="28" FontFamily="Arial Black" FontSize="20" Foreground ="Red" HorizontalAlignment="Right" Margin="0,165,163,217" RenderTransformOrigin="-3.24,-0.419" Click="Minus_Burger_Click">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White"/>
@@ -36,7 +31,20 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
+
+
+        <Button Content="+" Width="26" FontFamily="Arial Black" FontSize="20" Foreground ="#FF4D7F42" HorizontalAlignment="Right" Margin="0,267,248,113" RenderTransformOrigin="-3.24,-0.419" Click="Add_Shrimp_Click">
+
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="#FF0196EC" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
         <Button Content="-" Width="27" FontFamily="Arial Black" FontSize="20"  Foreground ="Red" HorizontalAlignment="Right" Margin="0,267,163,113" RenderTransformOrigin="-3.24,-0.419" Click="Minus_Shrimp_Click">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White"/>
@@ -73,7 +81,9 @@
         </Button>
         <Label Content="Classic Burger                     $12.00" FontFamily="Tempus Sans ITC" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Height="34" Margin="154,178,0,0" VerticalAlignment="Top" Width="326"/>
         <Label Content="Spicy Shrimp Tacos            $11.00" FontFamily="Tempus Sans ITC" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Height="34" Margin="159,277,0,0" VerticalAlignment="Top" Width="328"/>
+
         <Button Content="ADD" HorizontalAlignment="Left" Margin="651,178,0,0" VerticalAlignment="Top" Width="70" Height="25" Foreground="Black" FontFamily="Tempus Sans ITC" Click="Burger_Add_Click">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White" Offset="0"/>
@@ -81,7 +91,9 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
+
         <Button Content="ADD" HorizontalAlignment="Left" Margin="651,285,0,0" VerticalAlignment="Top" Width="70" Height="25" Foreground="Black" FontFamily="Tempus Sans ITC" Click="Shrimp_Add_Click">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White" Offset="0"/>
@@ -168,6 +180,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
+
       
         <Button x:Name ="DOWN" HorizontalAlignment="Left" Height="62" Margin="723,211,0,0" VerticalAlignment="Top" Width="61" Click="DOWN_Button_Click">
             <Button.Background>

@@ -29,6 +29,7 @@
         </Button>
 
         <Button Content="+" Width="26" FontFamily="Arial Black" FontSize="20" Foreground ="#FF4D7F42" HorizontalAlignment="Right" Margin="0,267,304,113" RenderTransformOrigin="-3.24,-0.419" Click="Add_Berry_Click">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White"/>
@@ -36,7 +37,9 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
+
         <Button Content="-" Width="27" FontFamily="Arial Black" FontSize="20"  Foreground ="Red" HorizontalAlignment="Right" Margin="0,267,194,113" RenderTransformOrigin="-3.24,-0.419" Click="Minus_Berry_Click">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White"/>
@@ -73,7 +76,9 @@
         </Button>
         <Label Content="Nachos                 $6.00" FontFamily="Tempus Sans ITC" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Height="34" Margin="154,178,0,0" VerticalAlignment="Top" Width="326"/>
         <Label Content="Strawberry            $8.00" FontFamily="Tempus Sans ITC" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Height="34" Margin="159,277,0,0" VerticalAlignment="Top" Width="328"/>
+
         <Button Content="ADD" HorizontalAlignment="Left" Margin="635,178,0,0" VerticalAlignment="Top" Width="70" Height="25" Foreground="Black" FontFamily="Tempus Sans ITC" Click="Nachos_Add_Click">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White" Offset="0"/>
@@ -81,7 +86,9 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
+
         <Button Content="ADD" HorizontalAlignment="Left" Margin="635,285,0,0" VerticalAlignment="Top" Width="70" Height="25" Foreground="Black" FontFamily="Tempus Sans ITC" Click="Berry_Add_Click">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White" Offset="0"/>

@@ -70,7 +70,6 @@ namespace Ordering_System
             Switcher.Switch(new CheckOut());
         }
 
-            
 
         private void DOWN_Button_Click(object sender, RoutedEventArgs e)
         {
@@ -83,6 +82,7 @@ namespace Ordering_System
 
         //This function stores the number of quantity selected and puts them into an int save_nachos to use for later (Quantity*Price)
        
+
         private void Nachos_Add_Click(object sender, RoutedEventArgs e)
         {
             quantity_nachos = nachos;              //Variable to use when adding the prices
@@ -101,6 +101,7 @@ namespace Ordering_System
             if (nachos < 1)
             {
                 App_Count1.Text = nachos.ToString();
+
             }
             else
                 nachos--;
@@ -134,6 +135,8 @@ namespace Ordering_System
             berry = 0;
             App_Count2.Text = berry.ToString();
 
-        }
+           } 
+
     }
+    
 }
