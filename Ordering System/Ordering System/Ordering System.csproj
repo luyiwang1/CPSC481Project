@@ -248,7 +248,7 @@
     <Resource Include="filet-mignon.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="grilled-lobster-tail-004-1553897798.jpg" />
+    <Resource Include="grilledLobster.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="sundae.jpg" />
@@ -257,7 +257,7 @@
     <Resource Include="chococake.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="download.jpg" />
+    <Resource Include="breakfastBurrito.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Egg-free-french-toast_post.jpg" />
