@@ -181,7 +181,7 @@
             </Image>
         </Button>
         <Image Margin="327,77,373,257"/>
-        <Image HorizontalAlignment="Left" Height="93" Margin="42,267,0,0" VerticalAlignment="Top" Width="158" Source="grilled-lobster-tail-004-1553897798.jpg" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="93" Margin="42,267,0,0" VerticalAlignment="Top" Width="158" Source="grilledLobster.jpg" Stretch="Fill"/>
         <Image HorizontalAlignment="Left" Height="115" Margin="42,138,0,0" VerticalAlignment="Top" Width="158" Source="steak.jpg" Stretch="Fill"/>
        
     </Grid>
