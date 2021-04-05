@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -131,6 +131,11 @@ namespace Ordering_System
         private void Dinner_Button_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void GoBack_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new WelcomeScreen());
         }
     }
 }
