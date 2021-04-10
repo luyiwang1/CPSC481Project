@@ -97,6 +97,12 @@
     <Compile Include="MyOrder.xaml.cs">
       <DependentUpon>MyOrder.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Order_A1.xaml.cs">
+      <DependentUpon>Order_A1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Template_Chekout.xaml.cs">
+      <DependentUpon>Template_Chekout.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Template_Done.xaml.cs">
       <DependentUpon>Template_Done.xaml</DependentUpon>
     </Compile>
@@ -171,6 +177,14 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="MyOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Order_A1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Template_Chekout.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

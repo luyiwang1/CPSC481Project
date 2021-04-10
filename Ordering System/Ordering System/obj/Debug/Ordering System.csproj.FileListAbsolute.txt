@@ -80,3 +80,7 @@ C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System
 C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Template_Order.baml
 C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Template_Done.g.cs
 C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Template_Done.baml
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Order_A1.g.cs
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Template_Chekout.g.cs
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Order_A1.baml
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Template_Chekout.baml
