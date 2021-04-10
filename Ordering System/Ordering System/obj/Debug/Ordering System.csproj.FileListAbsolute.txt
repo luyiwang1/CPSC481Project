@@ -64,3 +64,19 @@ C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System
 C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Ordering_System.Properties.Resources.resources
 C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Ordering System.csproj.GenerateResource.cache
 C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Ordering System.csproj.CoreCompileInputs.cache
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\AppetizerMenu-2.g.cs
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\BreakfastMenu-2.g.cs
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\DessertMenu_2.g.cs
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\DinnerMenu_2.g.cs
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\DrinksMenu_2.g.cs
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\LunchMenu_2.g.cs
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\AppetizerMenu-2.baml
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\BreakfastMenu-2.baml
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\DessertMenu_2.baml
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\DinnerMenu_2.baml
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\DrinksMenu_2.baml
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\LunchMenu_2.baml
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Template_Order.g.cs
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Template_Order.baml
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Template_Done.g.cs
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Template_Done.baml
