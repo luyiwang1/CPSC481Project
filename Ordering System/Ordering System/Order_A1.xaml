@@ -7,6 +7,108 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-            
+        <Grid.RowDefinitions>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="38*"/>
+        </Grid.RowDefinitions>
+        <Image HorizontalAlignment="Left" VerticalAlignment="Center" Width="803" Height="457" Source="Background.png" Margin="-3,-7,0,0" Grid.RowSpan="2" Stretch="Fill"/>
+        <Label Content="My Order" FontSize="30" HorizontalAlignment="Left" Margin="340,16,0,0" VerticalAlignment="Top" Width="160" Height="50" FontFamily="Tempus Sans ITC" FontStyle="Normal" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+        <Button Content="Return to Menu" HorizontalAlignment="Left" Margin="26,16,0,0" VerticalAlignment="Top" Height="50" Width="150" FontFamily="Tempus Sans ITC" FontSize="20" Visibility="Visible" Foreground="Black" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="white"/>
+                    <GradientStop Color="#FF0196EC" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Help" HorizontalAlignment="Right" Margin="0,16,39,0" VerticalAlignment="Top" Height="50" Width="60" FontFamily="Tempus Sans ITC" FontSize="20" Foreground="Black" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="white"/>
+                    <GradientStop Color="#FF0196EC" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Grid Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0" Content="Place Order" Margin="345,325,305,0" Width="150" Height="50" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Tempus Sans ITC" FontSize="20" Foreground="Black" Grid.ColumnSpan="2" >
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="white"/>
+                        <GradientStop Color="#FF0196EC" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="30" Margin="142,172,81,0" Height="40" Width="577" Grid.ColumnSpan="2"><Run Text="Coke"/><Run Text="  "/><Run Text="  "/><Run Text="   "/><Run Text="    &#x9;   "/><Run Text="$"/><Run Text="2"/><Run Text=".00"/><Run Text=" "/><Run Text="  "/><Run Text="        "/><InlineUIContainer>
+                    <Button Content="+" Foreground ="#FF4D7F42" Width="35" FontFamily="Tempus Sans ITC" FontSize="30" HorizontalAlignment="Center" Height="35" VerticalAlignment="Center">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="white"/>
+                                <GradientStop Color="#FF0196EC" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </InlineUIContainer><InlineUIContainer>
+                    <Label Content="2" FontFamily="Tempus Sans ITC" Width="35" Height="35" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20"/>
+                </InlineUIContainer><InlineUIContainer>
+                    <Button Content="-" Width="35" Foreground ="Red" FontFamily="Tempus Sans ITC" FontSize="30" HorizontalAlignment="Right" Height="35" >
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="white"/>
+                                <GradientStop Color="#FF0196EC" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </InlineUIContainer></TextBlock>
+            <Label Content="---------------------------------------------------------------------------" FontFamily="Bauhaus 93" FontSize="30" HorizontalAlignment="Center" Margin="142,217,146,178.6" Grid.ColumnSpan="2" />
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="30" Margin="142,271,81,0" Height="38" Width="577" Grid.ColumnSpan="2"><Run Text="Total         "/><Run Text="          "/><Run Text="$"/><Run Text="28.00"/></TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="30" Margin="142,92,81,0" Height="40" Width="577" Grid.ColumnSpan="2"><Run Text="Nachos"/><Run Text="           "/><Run Text="    "/><Run Text="$"/><Run Text="4"/><Run Text="."/><Run Text="00"/><Run Text="      "/><Run Text="  "/><Run Text="   "/><InlineUIContainer>
+                    <Button Content="+" Foreground ="#FF4D7F42" Width="35" FontFamily="Tempus Sans ITC" FontSize="30" HorizontalAlignment="Center" Height="35"  VerticalAlignment="Center">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="white"/>
+                                <GradientStop Color="#FF0196EC" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </InlineUIContainer><InlineUIContainer>
+                    <Label Content="1" FontFamily="Tempus Sans ITC" Width="35" Height="35" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20"/>
+                </InlineUIContainer><InlineUIContainer>
+                    <Button Content="-" Width="35" Foreground ="Red" FontFamily="Tempus Sans ITC" FontSize="30" HorizontalAlignment="Right" Height="35" >
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="white"/>
+                                <GradientStop Color="#FF0196EC" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </InlineUIContainer></TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="30" Margin="142,132,81,0" Height="40" Width="577" Grid.ColumnSpan="2"><Run Text="Filet Mignon"/><Run Text="  "/><Run Text="  "/><Run Text="   $"/><Run Text="2"/><Run Text="0"/><Run Text=".0"/><Run Text="0"/><Run Text="   "/><Run Text=" "/><Run Text="     "/><InlineUIContainer>
+                    <Button Content="+" Foreground ="#FF4D7F42" Width="35" FontFamily="Tempus Sans ITC" FontSize="30" HorizontalAlignment="Center" Height="35"  VerticalAlignment="Center">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="white"/>
+                                <GradientStop Color="#FF0196EC" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </InlineUIContainer><InlineUIContainer>
+                    <Label Content="1" FontFamily="Tempus Sans ITC" Width="35" Height="35" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20"/>
+                </InlineUIContainer><InlineUIContainer>
+                    <Button Content="-" Width="35" Foreground ="Red" FontFamily="Tempus Sans ITC" FontSize="30" HorizontalAlignment="Right" Height="35" >
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="white"/>
+                                <GradientStop Color="#FF0196EC" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </InlineUIContainer></TextBlock>
+        </Grid>
     </Grid>
 </UserControl>
