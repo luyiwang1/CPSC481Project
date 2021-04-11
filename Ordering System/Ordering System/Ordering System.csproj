@@ -109,6 +109,18 @@
     <Compile Include="Order_A4.xaml.cs">
       <DependentUpon>Order_A4.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Order_B1.xaml.cs">
+      <DependentUpon>Order_B1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Order_B2.xaml.cs">
+      <DependentUpon>Order_B2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Order_B3.xaml.cs">
+      <DependentUpon>Order_B3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Order_C1.xaml.cs">
+      <DependentUpon>Order_C1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Template_Chekout.xaml.cs">
       <DependentUpon>Template_Chekout.xaml</DependentUpon>
     </Compile>
@@ -202,6 +214,22 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Order_A4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Order_B1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Order_B2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Order_B3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Order_C1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
