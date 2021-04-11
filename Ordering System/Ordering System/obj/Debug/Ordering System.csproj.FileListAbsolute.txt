@@ -118,3 +118,11 @@ C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System
 C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Order_D5.baml
 C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Order_D6.baml
 C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Order_D7.baml
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Order_E1.g.cs
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Order_E1.baml
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Order_E2.g.cs
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Order_E3.g.cs
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Order_E2.baml
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Order_E3.baml
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Order_E4.g.cs
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Order_E4.baml
