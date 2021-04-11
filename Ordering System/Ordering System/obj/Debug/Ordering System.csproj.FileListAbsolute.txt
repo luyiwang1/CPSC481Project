@@ -88,3 +88,5 @@ C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System
 C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Order_A2.baml
 C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Order_A3.g.cs
 C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Order_A3.baml
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Order_A4.g.cs
+C:\Users\CallMeBiggy\Source\Repos\CPSC481Project\Ordering System\Ordering System\obj\Debug\Order_A4.baml
