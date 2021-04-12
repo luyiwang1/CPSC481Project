@@ -24,5 +24,11 @@ namespace Ordering_System
         {
             InitializeComponent();
         }
+
+        private void Bill_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new Order_A4());
+
+        }
     }
 }

@@ -62,7 +62,7 @@ namespace Ordering_System
 
         private void My_Order_Button_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new MyOrder());
+            Switcher.Switch(new Order_B1());
         }
 
         private void Bill_Button_Click(object sender, RoutedEventArgs e)

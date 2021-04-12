@@ -13,7 +13,7 @@
         </Grid.RowDefinitions>
         <Image HorizontalAlignment="Left" VerticalAlignment="Center" Width="803" Height="457" Source="Background.png" Margin="-3,-7,0,0" Grid.RowSpan="2" Stretch="Fill"/>
         <Label Content="My Order" FontSize="30" HorizontalAlignment="Left" Margin="340,16,0,0" VerticalAlignment="Top" Width="160" Height="50" FontFamily="Tempus Sans ITC" FontStyle="Normal" HorizontalContentAlignment="Center" FontWeight="Bold"/>
-        <Button Content="Return to Menu" HorizontalAlignment="Left" Margin="26,16,0,0" VerticalAlignment="Top" Height="50" Width="150" FontFamily="Tempus Sans ITC" FontSize="20" Visibility="Visible" Foreground="Black" >
+        <Button Name="Return_Button" Click="Return_Button_Click" Content="Return to Menu" HorizontalAlignment="Left" Margin="26,16,0,0" VerticalAlignment="Top" Height="50" Width="150" FontFamily="Tempus Sans ITC" FontSize="20" Visibility="Visible" Foreground="Black" >
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="white"/>
@@ -21,7 +21,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Content="Help" HorizontalAlignment="Right" Margin="0,16,39,0" VerticalAlignment="Top" Height="50" Width="60" FontFamily="Tempus Sans ITC" FontSize="20" Foreground="Black" >
+        <Button Name="Help_Button" Click="Help_Button_Click" Content="Help" HorizontalAlignment="Right" Margin="0,16,39,0" VerticalAlignment="Top" Height="50" Width="60" FontFamily="Tempus Sans ITC" FontSize="20" Foreground="Black" >
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="white"/>
@@ -36,7 +36,7 @@
 
             </Grid.ColumnDefinitions>
 
-            <Button Grid.Column="0" Content="Place Order" Margin="345,325,305,0" Width="150" Height="50" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Tempus Sans ITC" FontSize="20" Foreground="Black" Grid.ColumnSpan="2" >
+            <Button Name="Place_Order_Button" Click="Place_Order_Button_Click" Grid.Column="0" Content="Place Order" Margin="345,325,305,0" Width="150" Height="50" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Tempus Sans ITC" FontSize="20" Foreground="Black" Grid.ColumnSpan="2" >
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="white"/>
@@ -56,7 +56,7 @@
                 </InlineUIContainer><InlineUIContainer>
                     <Label Content="2" FontFamily="Tempus Sans ITC" Width="35" Height="35" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20"/>
                 </InlineUIContainer><InlineUIContainer>
-                    <Button Content="-" Width="35" Foreground ="Red" FontFamily="Tempus Sans ITC" FontSize="30" HorizontalAlignment="Right" Height="35" >
+                    <Button Name="Minus_Coke_Button" Click="Minus_Coke_Button_Click" Content="-" Width="35" Foreground ="Red" FontFamily="Tempus Sans ITC" FontSize="30" HorizontalAlignment="Right" Height="35" >
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                 <GradientStop Color="white"/>

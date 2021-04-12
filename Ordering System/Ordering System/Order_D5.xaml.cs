@@ -24,5 +24,10 @@ namespace Ordering_System
         {
             InitializeComponent();
         }
+
+        private void Place_Order_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new Order_D6());
+        }
     }
 }

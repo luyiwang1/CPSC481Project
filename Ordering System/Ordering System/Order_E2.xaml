@@ -36,7 +36,7 @@
 
             </Grid.ColumnDefinitions>
 
-            <Button Grid.Column="0" Content="Place Order" Margin="343,367,307,0" Width="150" Height="50" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Tempus Sans ITC" FontSize="20" Foreground="Black" Grid.ColumnSpan="2" >
+            <Button Name="Place_Order_Button" Click="Place_Order_Button_Click" Grid.Column="0" Content="Place Order" Margin="343,367,307,0" Width="150" Height="50" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Tempus Sans ITC" FontSize="20" Foreground="Black" Grid.ColumnSpan="2" >
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="white"/>

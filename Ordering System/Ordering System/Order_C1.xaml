@@ -58,7 +58,7 @@
                 </InlineUIContainer><InlineUIContainer>
                     <Label Content="2" FontFamily="Tempus Sans ITC" Width="35" Height="35" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20"/>
                 </InlineUIContainer><InlineUIContainer>
-                    <Button Content="-" Width="35" Foreground ="Red" FontFamily="Tempus Sans ITC" FontSize="30" HorizontalAlignment="Right" Height="35" >
+                    <Button Name="Minus_Button" Click="Minus_Button_Click" Content="-" Width="35" Foreground ="Red" FontFamily="Tempus Sans ITC" FontSize="30" HorizontalAlignment="Right" Height="35" >
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                 <GradientStop Color="white"/>

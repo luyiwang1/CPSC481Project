@@ -24,5 +24,15 @@ namespace Ordering_System
         {
             InitializeComponent();
         }
+
+        private void Cash_Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Please wait as a staff member will arrive with your bill shortly.");
+        }
+
+        private void Credit_Debit_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Please wait as a staff member will arrive with your bill shortly.");
+        }
     }
 }

@@ -53,7 +53,6 @@
             <Label Content="---------------------------------------------------------------------------" FontFamily="Bauhaus 93" FontSize="30" HorizontalAlignment="Center" Margin="125,219,163,176.6" Grid.ColumnSpan="2" />
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="30" Margin="125,278,98,0" Height="38" Width="577" Grid.ColumnSpan="2"><Run Text="Total         "/><Run Text="          "/><Run Text="$"/><Run Text="28"/><Run Text=".00"/></TextBlock>
             <Label Content="Payment Method" FontSize="30" HorizontalAlignment="Center" Margin="271,323,269,0" VerticalAlignment="Top" Width="260" Height="50" FontFamily="Tempus Sans ITC" FontStyle="Normal" HorizontalContentAlignment="Center" FontWeight="Bold" Grid.ColumnSpan="2"/>
-
         </Grid>
     </Grid>
 </UserControl>

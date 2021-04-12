@@ -131,7 +131,7 @@
                     </Button>
                 </InlineUIContainer></TextBlock>
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="30" Margin="142,238,81,0" Height="40" Width="577" Grid.ColumnSpan="2"><Run Text="Sprite"/><Run Text="  "/><Run Text="  "/><Run Text="   "/><Run Text="    &#x9;   "/><Run Text="$"/><Run Text="2"/><Run Text=".00"/><Run Text=" "/><Run Text="  "/><Run Text="        "/><InlineUIContainer>
-                    <Button Content="+" Foreground ="#FF4D7F42" Width="35" FontFamily="Tempus Sans ITC" FontSize="30" HorizontalAlignment="Center" Height="35" VerticalAlignment="Center">
+                    <Button Name="Plus_Button" Click="Plus_Button_Click" Content="+" Foreground ="#FF4D7F42" Width="35" FontFamily="Tempus Sans ITC" FontSize="30" HorizontalAlignment="Center" Height="35" VerticalAlignment="Center">
                         <Button.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                 <GradientStop Color="white"/>

@@ -24,5 +24,25 @@ namespace Ordering_System
         {
             InitializeComponent();
         }
+
+        private void Return_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new AppetizerMenu());
+        }
+
+        private void Help_Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Increase or decrease the quantity of items in your order using the plus/minus buttons." + "\n" + "Press the Place Order button if you are satisfied with your order." + "\n" + "Press the Order Take Out button if you wish to order as takeout." + "\n" + "If you wish to add more items to your order, press Return to Menu.");
+        }
+
+        private void Place_Order_Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Your order has been placed and your food will arrive shortly. Thank you!");
+        }
+
+        private void Minus_Coke_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new Order_A2());
+        }
     }
 }
