@@ -34,5 +34,10 @@ namespace Ordering_System
         {
             MessageBox.Show("Please wait as a staff member will arrive with your bill shortly.");
         }
+
+        private void Return_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new AppetizerMenu());
+        }
     }
 }

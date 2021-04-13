@@ -13,7 +13,7 @@
         </Grid.RowDefinitions>
         <Image HorizontalAlignment="Left" VerticalAlignment="Center" Width="803" Height="457" Source="Background.png" Margin="-3,-7,0,0" Grid.RowSpan="2" Stretch="Fill"/>
         <Label Content="My Bill" FontSize="30" HorizontalAlignment="Left" Margin="340,16,0,0" VerticalAlignment="Top" Width="160" Height="50" FontFamily="Tempus Sans ITC" FontStyle="Normal" HorizontalContentAlignment="Center" FontWeight="Bold"/>
-        <Button Content="Return to Menu" HorizontalAlignment="Left" Margin="26,16,0,0" VerticalAlignment="Top" Height="50" Width="150" FontFamily="Tempus Sans ITC" FontSize="20" Visibility="Visible" Foreground="Black" >
+        <Button Name="Return_Button" Click="Return_Button_Click" Content="Return to Menu" HorizontalAlignment="Left" Margin="26,16,0,0" VerticalAlignment="Top" Height="50" Width="150" FontFamily="Tempus Sans ITC" FontSize="20" Visibility="Visible" Foreground="Black" >
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="white"/>
@@ -36,7 +36,7 @@
 
             </Grid.ColumnDefinitions>
 
-            <Button Content="Cash" Margin="125,373,125,0" Width="150" Height="50" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Tempus Sans ITC" FontSize="20" Foreground="Black"  >
+            <Button Name="Cash_Button" Click="Cash_Button_Click" Content="Cash" Margin="125,373,125,0" Width="150" Height="50" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Tempus Sans ITC" FontSize="20" Foreground="Black"  >
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="white"/>
@@ -44,7 +44,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button Grid.Column="1" Content="Credit/Debit" Margin="135,373,115,0" Width="150" Height="50" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Tempus Sans ITC" FontSize="20" Foreground="Black"  >
+            <Button Name="Credit_Debit_Button" Click="Credit_Debit_Button_Click" Grid.Column="1" Content="Credit/Debit" Margin="135,373,115,0" Width="150" Height="50" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Tempus Sans ITC" FontSize="20" Foreground="Black"  >
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="White"/>

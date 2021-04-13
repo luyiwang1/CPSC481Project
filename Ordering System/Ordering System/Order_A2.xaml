@@ -13,7 +13,7 @@
         </Grid.RowDefinitions>
         <Image HorizontalAlignment="Left" VerticalAlignment="Center" Width="803" Height="457" Source="Background.png" Margin="-3,-7,0,0" Grid.RowSpan="2" Stretch="Fill"/>
         <Label Content="My Order" FontSize="30" HorizontalAlignment="Left" Margin="340,16,0,0" VerticalAlignment="Top" Width="160" Height="50" FontFamily="Tempus Sans ITC" FontStyle="Normal" HorizontalContentAlignment="Center" FontWeight="Bold"/>
-        <Button Content="Return to Menu" HorizontalAlignment="Left" Margin="26,16,0,0" VerticalAlignment="Top" Height="50" Width="150" FontFamily="Tempus Sans ITC" FontSize="20" Visibility="Visible" Foreground="Black" >
+        <Button Name="Return_Button" Click="Return_Button_Click" Content="Return to Menu" HorizontalAlignment="Left" Margin="26,16,0,0" VerticalAlignment="Top" Height="50" Width="150" FontFamily="Tempus Sans ITC" FontSize="20" Visibility="Visible" Foreground="Black" >
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="white"/>

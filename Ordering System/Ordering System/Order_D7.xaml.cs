@@ -24,5 +24,10 @@ namespace Ordering_System
         {
             InitializeComponent();
         }
+
+        private void Return_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new AppetizerMenu());
+        }
     }
 }

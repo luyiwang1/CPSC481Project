@@ -127,6 +127,12 @@
     <Compile Include="Order_C3.xaml.cs">
       <DependentUpon>Order_C3.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Order_C3_2.xaml.cs">
+      <DependentUpon>Order_C3_2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Order_C3_3.xaml.cs">
+      <DependentUpon>Order_C3_3.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Order_C4.xaml.cs">
       <DependentUpon>Order_C4.xaml</DependentUpon>
     </Compile>
@@ -280,6 +286,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Order_C3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Order_C3_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Order_C3_3.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

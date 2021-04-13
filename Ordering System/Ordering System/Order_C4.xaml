@@ -13,7 +13,7 @@
         </Grid.RowDefinitions>
         <Image HorizontalAlignment="Left" VerticalAlignment="Center" Width="803" Height="457" Source="Background.png" Margin="-3,-7,0,0" Grid.RowSpan="2" Stretch="Fill"/>
         <Label Content="My Order" FontSize="30" HorizontalAlignment="Left" Margin="340,16,0,0" VerticalAlignment="Top" Width="160" Height="50" FontFamily="Tempus Sans ITC" FontStyle="Normal" HorizontalContentAlignment="Center" FontWeight="Bold"/>
-        <Button Content="Return to Menu" HorizontalAlignment="Left" Margin="26,16,0,0" VerticalAlignment="Top" Height="50" Width="150" FontFamily="Tempus Sans ITC" FontSize="20" Visibility="Visible" Foreground="Black" >
+        <Button Name="Return_Button" Click="Return_Button_Click" Content="Return to Menu" HorizontalAlignment="Left" Margin="26,16,0,0" VerticalAlignment="Top" Height="50" Width="150" FontFamily="Tempus Sans ITC" FontSize="20" Visibility="Visible" Foreground="Black" >
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="white"/>
@@ -53,9 +53,10 @@
                 </Button.Background>
             </Button>
             <Label Content="---------------------------------------------------------------------------" FontFamily="Bauhaus 93" FontSize="30" HorizontalAlignment="Center" Margin="142,217,146,178.6" Grid.ColumnSpan="2" />
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="30" Margin="142,271,81,0" Height="38" Width="577" Grid.ColumnSpan="2"><Run Text="Total         "/><Run Text="          "/><Run Text="$7.00"/></TextBlock>
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="30" Margin="142,172,81,0" Height="40" Width="577" Grid.ColumnSpan="2"><Run Text="Nachos"/><Run Text="           "/><Run Text="    "/><Run Text="$7."/><Run Text="00"/><Run Text="      "/><Run Text="   "/></TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="30" Margin="142,271,81,0" Height="38" Width="577" Grid.ColumnSpan="2"><Run Text="Total         "/><Run Text="          "/><Run Text="$9.00"/></TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="30" Margin="142,153,81,0" Height="40" Width="577" Grid.ColumnSpan="2"><Run Text="Nachos"/><Run Text="           "/><Run Text="    "/><Run Text="$7."/><Run Text="00"/><Run Text="      "/><Run Text="   "/></TextBlock>
             <Label Content="Payment Method" FontSize="30" HorizontalAlignment="Center" Margin="271,323,269,0" VerticalAlignment="Top" Width="260" Height="50" FontFamily="Tempus Sans ITC" FontStyle="Normal" HorizontalContentAlignment="Center" FontWeight="Bold" Grid.ColumnSpan="2"/>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="30" Margin="142,198,81,0" Height="40" Width="577" Grid.ColumnSpan="2"><Run Text="Coke           "/><Run Text="        "/><Run Text="$2."/><Run Text="00"/><Run Text="      "/><Run Text="   "/></TextBlock>
         </Grid>
     </Grid>
 </UserControl>

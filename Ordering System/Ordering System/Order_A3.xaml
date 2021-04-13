@@ -44,7 +44,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="30" Margin="142,177,81,0" Height="40" Width="577" Grid.ColumnSpan="2"><Run Text="Coke"/><Run Text="  "/><Run Text="  "/><Run Text="   "/><Run Text="    &#x9;   "/><Run Text="$"/><Run Text="4"/><Run Text=".00"/><Run Text=" "/><Run Text="   "/><Run Text="   "/></TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="30" Margin="142,177,81,0" Height="40" Width="577" Grid.ColumnSpan="2"><Run Text="Coke"/><Run Text="  "/><Run Text="  "/><Run Text="   "/><Run Text="    &#x9;   "/><Run Text="$2.00"/><Run Text=" "/><Run Text="   "/><Run Text="   "/></TextBlock>
             <Label Content="---------------------------------------------------------------------------" FontFamily="Bauhaus 93" FontSize="30" HorizontalAlignment="Center" Margin="142,217,146,178.6" Grid.ColumnSpan="2" />
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="30" Margin="142,271,81,0" Height="38" Width="577" Grid.ColumnSpan="2"><Run Text="Total         "/><Run Text="          "/><Run Text="$"/><Run Text="26.00"/></TextBlock>
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="30" Margin="142,97,81,0" Height="40" Width="577" Grid.ColumnSpan="2"><Run Text="Nachos"/><Run Text="           "/><Run Text="    "/><Run Text="$"/><Run Text="4"/><Run Text="."/><Run Text="00"/><Run Text="      "/><Run Text="  "/><Run Text="   "/></TextBlock>

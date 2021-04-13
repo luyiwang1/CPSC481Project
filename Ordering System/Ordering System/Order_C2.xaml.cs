@@ -29,5 +29,10 @@ namespace Ordering_System
         {
             Switcher.Switch(new Order_C3());
         }
+
+        private void Return_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new AppetizerMenu());
+        }
     }
 }

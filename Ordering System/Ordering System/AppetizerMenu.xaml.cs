@@ -18,6 +18,7 @@ namespace Ordering_System
     /// <summary>
     /// Interaction logic for AppetizerMenu.xaml
     /// </summary>
+    
     public partial class AppetizerMenu : UserControl
     {
         public AppetizerMenu()
@@ -62,12 +63,18 @@ namespace Ordering_System
 
         private void My_Order_Button_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new Order_A1());
+          
+            if(quantity_nachos > 1)
+            {
+                Switcher.Switch(new Order_C1());
+            }else
+                Switcher.Switch(new Order_A1());
+
         }
 
         private void Bill_Button_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new CheckOut());
+            Switcher.Switch(new Order_A4());
         }
 
 
@@ -77,7 +84,7 @@ namespace Ordering_System
         }
 
         //==================================THIS SECTION IS FOR THE ADDING/MINUS OF THE NACHOS============================================
-        private int nachos = 0;
+        int nachos = 0;
         private int quantity_nachos;
 
         //This function stores the number of quantity selected and puts them into an int save_nachos to use for later (Quantity*Price)

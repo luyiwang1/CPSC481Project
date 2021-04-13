@@ -70,7 +70,7 @@ namespace Ordering_System
 
         private void Bill_Button_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new CheckOut());
+            Switcher.Switch(new Order_B3());
         }
 
         private void UP_Button_Click(object sender, RoutedEventArgs e)
