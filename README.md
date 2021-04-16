@@ -17,3 +17,7 @@ Contributors: Luyi Wang, Steven Mlilo, Shavonne Tran and Hafsa Zia
 10. The waiter or waitress will come and assist you with your food.
 11. Pay the bill by selecting two different payment types, cash or card.
 12. The waiter or waitress will come and assist you with your payment.
+
+# Other features
+1. Help Buttons in everypages give the user instructions.
+2. The waiter/waitress button in each menu pages would let them assist the users.
