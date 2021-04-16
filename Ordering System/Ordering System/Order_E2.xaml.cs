@@ -27,6 +27,7 @@ namespace Ordering_System
 
         private void Place_Order_Button_Click(object sender, RoutedEventArgs e)
         {
+            MessageBox.Show("Your order has been placed and your food will arrive shortly. Thank you!");
             Switcher.Switch(new Order_E3());
         }
     }

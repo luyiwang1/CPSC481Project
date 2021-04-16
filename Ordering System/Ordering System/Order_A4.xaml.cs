@@ -39,5 +39,11 @@ namespace Ordering_System
         {
             Switcher.Switch(new AppetizerMenu());
         }
+
+        private void Help_Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Select your method of payment by choosing cash or credit/debit." + "\n" + "If you wish to add more items to your order, press Return to Menu.");
+
+        }
     }
 }

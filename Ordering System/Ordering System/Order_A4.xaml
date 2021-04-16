@@ -17,7 +17,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Content="Help" HorizontalAlignment="Right" Margin="0,16,39,0" VerticalAlignment="Top" Height="50" Width="60" FontFamily="Tempus Sans ITC" FontSize="20" Foreground="Black">
+        <Button Name="Help_Button" Click="Help_Button_Click" Content="Help" HorizontalAlignment="Right" Margin="0,16,39,0" VerticalAlignment="Top" Height="50" Width="60" FontFamily="Tempus Sans ITC" FontSize="20" Foreground="Black">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="white"/>
